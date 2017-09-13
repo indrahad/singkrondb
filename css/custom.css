@@ -1,0 +1,87 @@
+nav#navbar{
+	background: #ECEFF1;
+
+}
+#navbar .nav-pills > li.active > a, 
+#navbar .nav-pills > li.active > a:hover, 
+#navbar .nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #a10000;
+  border-radius: 0px;
+}
+
+#navbar .nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #CF8B8B;
+}
+div#konten{
+	margin-top: 0px;
+	padding: 1px 10px 10px 10px;
+	background: #ECEFF1;
+	color: black;
+}
+div#tomboltambahbaru{
+
+}
+/*membuat clas btn-apa*/
+.marginnol{
+	margin:0px;
+	background:#ECEFF1;
+	padding-top: 20px;
+}
+.table-no{
+	width: 100px;
+}
+.btn-abang{
+	 color: #fff;
+  background-color: #a70000;
+  border-radius: 0px;
+}
+.btn-abang:hover , .btn-abang:focus{
+	 color: #fff;
+  background-color: #D30D0D;
+  border-radius: 0px;
+}
+.wrap{
+	position: relative;
+	margin: 0 auto;
+	width: 900px;
+}
+
+div#footer{
+	margin-top: 0px;
+	padding: 10px;
+	background: #073C64;
+	color: white;
+	width: 100%;
+	float: left;
+}
+div#raiso{
+	display: block;
+	background: #073C64;
+	color: white;
+	margin:0;
+}
+
+body{
+	padding: 0;
+	margin-top: 0;
+}
+
+.judul{
+	padding: 10px 10px 10px 10px;
+	margin: 0px 0px 0px 0px;
+}
+
+.carouselcustom{
+	height: 300px;
+}
+
+.itemslide{
+	text-align: center;
+}
+
+.fotoimg{
+	max-height: 300px;
+	display:inline-block;
+}

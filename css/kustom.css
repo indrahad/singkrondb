@@ -1,0 +1,255 @@
+body {
+	background-color: #eee;
+}
+
+div#header{
+	background: #FD971F;
+	color: white;
+	height: 100px;
+}
+.paddingbawah{
+	padding-top: 20px;
+}
+
+div#footer{
+	background: #FD971F;
+	color: #272822;
+	height: 100px;
+	text-align: center;
+	margin-top: 0px;
+}
+div#video{
+	background: #FD971F;
+	/*color: #272822;
+	height: 100px;
+	text-align: center;
+	margin-top: 0px;*/
+	margin-bottom: 30px;
+	/*min-height: 550px;*/
+}
+.videoutama{
+	width: 719px;
+	height: 460px;
+}
+div#footer > h5 {
+	margin-top: 0px;
+	text-align: center;
+	line-height: 100px;
+	font-weight: bold;
+
+}
+
+div#nabar{
+	padding: 10px 10px 10px 10px;
+}
+
+div#konten{
+	background: #efebeb;
+	color: #272822;
+}
+.remove{
+	margin-top: auto;
+}
+#artikel .fontartikel{
+	text-decoration: none;
+	color: #fd971f;
+	font-size: 
+}
+#artikel .medsos{
+	border-top: 1px solid #E6E6E6;
+	padding-top: 30px;
+	margin-top: 15px;
+	text-align: center;
+}
+#artikel .medsos li{
+	display: inline-block;
+}
+#artikel .garis{
+	border-bottom: 5px solid #E6E6E6;
+}
+#artikel .fontartikel:hover {
+	text-decoration: none;
+	color: #ff5200;
+}
+#artikel .row .col-md-4 .ctr{
+	min-height: 150px;
+	min-width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	/*display: table-cell;*/
+	vertical-align: middle
+}
+#artikel .ctr{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 846px;
+	margin-bottom: 15px;
+}
+#artikel .ctriklan{
+	max-width: 117px;
+	margin-top: 41px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#artikel .paragraf{
+	line-height: 140%;
+	text-align: justify;
+}
+.sizevideo{
+	/*height: 450px;*/
+	width: 100%;
+}
+.breadcrumb{
+	border-bottom: 5px solid #E6E6E6;
+	margin-bottom: 20px;
+}
+.bredcrum > li {
+	display: inline-block;
+	line-height: 1.3;
+}
+
+.slidcenter {
+	margin: auto;
+	width: 100%;
+	border: 0px solid green;
+	padding: 0px;
+}
+
+.paddingbawah{
+	padding-bottom: 20px;
+}
+
+.videotitle{
+	text-transform: uppercase;
+	font-family: "Montserrat",Helvetica,Arial,sans-serif;
+	font-size: 24px;
+	/*margin: 0;*/
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.after {
+	content: "";
+	display: block;
+	margin: 15px auto;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: 0;
+	width: 100px;
+	border-bottom: 3px solid #eee;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+}
+.afterr {
+	content: "";
+	display: block;
+	margin: 15px auto;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: 0;
+	width: 100px;
+	border-bottom: 3px solid #FD971F;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+}
+#video .photokit{
+	display: inline-block;
+	max-height: 116px;
+	width: 211px;
+	border-bottom: 10px solid #FD971F;	
+}
+#video .container{
+	max-width: 980px;
+}
+#video .pos{
+	position: relative;
+	opacity: 1;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+#video .middle{
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%)
+}
+#video .pos:hover .photokit{
+	opacity: 0.3;
+}
+
+#video .pos:hover .middle {
+	opacity: 1;
+
+}
+#video .text {
+
+	color: white;
+	text-transform: uppercase;
+	font-family: "Montserrat",Helvetica,Arial,sans-serif;
+	font-size: 15px;
+	padding-bottom: 16px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.videomore{
+	text-transform: uppercase;
+	font-family: "Montserrat",Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	/*margin: 5;*/
+	letter-spacing: 2px;
+	font-weight: bold;
+	color: #272822;
+	vertical-align: middle;
+	float: right;
+	padding: 20px 0px 20px 0px ;
+}
+#artikel .col-md-4 img.img-responsive{
+	padding-bottom: 20px;
+}
+.photomore{
+	text-transform: uppercase;
+	font-family: "Montserrat",Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	/*margin: 5;*/
+	letter-spacing: 2px;
+	font-weight: bold;
+	color: #272822;
+	vertical-align: middle;
+	float: inherit;
+	padding: 27px 0px 0px 0px ;
+
+}
+.fontsatu{
+	font-size: 20px;
+	padding-top: 0px;
+	text-decoration: none;
+}
+#konten:hover .fontsatu{
+	text-decoration: none;
+}
+#topnav:hover .fontsatu{
+	text-decoration: none;
+}
+
+.post{
+	margin-bottom: 20px;
+	/*padding-bottom: 20px;*/
+	border-bottom: 2px solid #FD971F;
+}
+
+.post-date{
+	margin: 0 7px 7px 0;
+	display: inline-block;
+	text-decoration: none;
+	color: #272822;
+	font-family: "Montserrat",Helvetica,Arial,sans-serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
